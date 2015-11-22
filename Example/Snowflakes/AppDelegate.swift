@@ -1,9 +1,8 @@
 //
-//  AppDelegate.swift
-//  Snowflakes
+//  Twitter: @MartinRogalla
+//  EmaiL: email@martinrogalla.com
 //
-//  Created by Martin Rogalla on 11/22/2015.
-//  Copyright (c) 2015 Martin Rogalla. All rights reserved.
+//  Created by Martin Rogalla.
 //
 
 import UIKit
@@ -12,10 +11,14 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        self.window!.makeKeyAndVisible()
+        self.window!.clipsToBounds = true
+
+        let mainVC = ViewController()
+        self.window!.rootViewController = mainVC
         return true
     }
 

@@ -1,24 +1,23 @@
 //
-//  ViewController.swift
-//  Snowflakes
+//  Twitter: @MartinRogalla
+//  EmaiL: email@martinrogalla.com
 //
-//  Created by Martin Rogalla on 11/22/2015.
-//  Copyright (c) 2015 Martin Rogalla. All rights reserved.
+//  Created by Martin Rogalla.
 //
 
 import UIKit
+import Snowflakes
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.view.backgroundColor = UIColor.blackColor()
+        self.view.addSubview(SnowflakesView(frame: self.view.frame))
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return UIStatusBarStyle.LightContent
     }
 
 }
-

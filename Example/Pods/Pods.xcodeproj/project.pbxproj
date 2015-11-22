@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		185040244322CC949B1D8553D60FC029 /* Pods-Snowflakes_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04760A540C44D1635091AE873CF8C349 /* Pods-Snowflakes_Tests-dummy.m */; };
+		49607CD4696D798CC745F633C24D5C74 /* Pods-Snowflakes_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5D10E245D1A268A7DCD7FE655002C1F /* Pods-Snowflakes_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		653257EA8EB72B18AE021534E61A2A7F /* Snowflakes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA389C17347E4544F0B473A3BE6C7F41 /* Snowflakes-dummy.m */; };
+		7FFE334502CA591044D8B18B2042CC45 /* Snowflakes-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C8C1BFB20667EEBD86466E386D1C915 /* Snowflakes-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83F0D8A3F3CB5E4A7152B18657D29AA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		8AE13FA71211EEF54BAF20D06778F2C1 /* SnowflakesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E620F636418874CAF771B9FE122DB82C /* SnowflakesView.swift */; };
+		A1BC81A323D39CB3C8B4D53CCFEA8A2C /* Snowflakes.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 95E0989F8C8D53AE01747CED041E6176 /* Snowflakes.bundle */; };
+		DDF7233F0C907DB47FAC6A5D4AAFB77C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		DF31E8709568E11E1CB7A1D99E715FAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		E6E2A7B4EA354C792F273E60C2CE8C6A /* Snowflake.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEBE14D66B76CB22CEAB42556F429DD /* Snowflake.swift */; };
+		EC084923ED50E04D42804676E726E6C9 /* Pods-Snowflakes_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D5BF695BC95BAD5DF5932EED4ECA9FB /* Pods-Snowflakes_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF8FC2D807F53D96B6BA0D4C46CACCF4 /* Pods-Snowflakes_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3931F35BC2616E3FC9832AA602A36AFF /* Pods-Snowflakes_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38071D11646DE6C47D9CE5815017E06A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B514E3B81387F20EEC4799589FDD9071;
+			remoteInfo = "Snowflakes-Snowflakes";
+		};
+		6CE99ED7D9204CE051455A01D20365FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A2142C85562C5DC2551BD4A8588795A;
+			remoteInfo = Snowflakes;
+		};
+		EC623173A49222D6CCA9EDEF06F890F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A2142C85562C5DC2551BD4A8588795A;
+			remoteInfo = Snowflakes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04760A540C44D1635091AE873CF8C349 /* Pods-Snowflakes_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Snowflakes_Tests-dummy.m"; sourceTree = "<group>"; };
+		0B16CBA52F354F142FFD3A0E6B948BF3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D77599F09C114F34F3F6DBDCCCA7249 /* Pods-Snowflakes_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Snowflakes_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		145BD507A2B447E58634E29FF9870A00 /* Pods-Snowflakes_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Snowflakes_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		17A5AAB7FE5FFF14B7B5A041294137E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182E3780853934167B72FA4ECD9988B3 /* Pods-Snowflakes_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Snowflakes_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1D5BF695BC95BAD5DF5932EED4ECA9FB /* Pods-Snowflakes_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Snowflakes_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2ADC95B181DCF427DB661F89829D7DFC /* Pods_Snowflakes_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snowflakes_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		322C28927E2A3BEA02E15E8CD68EF22E /* Snowflakes.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Snowflakes.modulemap; sourceTree = "<group>"; };
+		34689A782FDD1537EA2FA7C75D5C52EB /* Pods-Snowflakes_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Snowflakes_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3551A821FB008803C2F97EBBAF657AB0 /* Pods-Snowflakes_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Snowflakes_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3931F35BC2616E3FC9832AA602A36AFF /* Pods-Snowflakes_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Snowflakes_Example-dummy.m"; sourceTree = "<group>"; };
+		3D943B6BCFC52DAEC698D45A9FB1AD78 /* Pods-Snowflakes_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Snowflakes_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		550FF80E94E8CA3400BB0D983DA2337A /* Pods-Snowflakes_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Snowflakes_Tests.modulemap"; sourceTree = "<group>"; };
+		58E2534D1C96FCFEEF5042B53D130A16 /* Pods-Snowflakes_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Snowflakes_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5C8C1BFB20667EEBD86466E386D1C915 /* Snowflakes-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Snowflakes-umbrella.h"; sourceTree = "<group>"; };
+		66596FA11F72E6C320B89272FA2F332A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6886839B11C7C2D0BEC7E61FC308341B /* Pods-Snowflakes_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Snowflakes_Tests-resources.sh"; sourceTree = "<group>"; };
+		70AA917EA012DF6801404176F44E920E /* Snowflakes.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Snowflakes.xcconfig; sourceTree = "<group>"; };
+		70EAA66B441AC469B4EC213CC5BC7BCF /* Pods-Snowflakes_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Snowflakes_Example-resources.sh"; sourceTree = "<group>"; };
+		95E0989F8C8D53AE01747CED041E6176 /* Snowflakes.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Snowflakes.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F42CAC4969A61D1138BFCB406DF230 /* Snowflakes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Snowflakes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA389C17347E4544F0B473A3BE6C7F41 /* Snowflakes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Snowflakes-dummy.m"; sourceTree = "<group>"; };
+		B726998D1C27F5CE05C0076C620B11B8 /* Pods-Snowflakes_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Snowflakes_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB3D105E40237A54A398AB7388DB1E50 /* Pods-Snowflakes_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Snowflakes_Example.modulemap"; sourceTree = "<group>"; };
+		BEEBE14D66B76CB22CEAB42556F429DD /* Snowflake.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Snowflake.swift; sourceTree = "<group>"; };
+		C3AAFC2D92E44B23176BF2C3C0573E9A /* Snowflakes-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Snowflakes-prefix.pch"; sourceTree = "<group>"; };
+		D0B58A28614CB5E09CAF0852CC09AD3F /* Pods_Snowflakes_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snowflakes_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5D10E245D1A268A7DCD7FE655002C1F /* Pods-Snowflakes_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Snowflakes_Example-umbrella.h"; sourceTree = "<group>"; };
+		E620F636418874CAF771B9FE122DB82C /* SnowflakesView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SnowflakesView.swift; sourceTree = "<group>"; };
+		E67C9A1F27597324338AE94311500922 /* Pods-Snowflakes_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Snowflakes_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF017047380A526AE82CCC1AF54FA90E /* Pods-Snowflakes_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Snowflakes_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		151869186D8C055D35834A47397D1654 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF7233F0C907DB47FAC6A5D4AAFB77C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5D653AA8CAF6B4195989723711C003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E55E38AFDC066C7C88F91D51A91DE6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF31E8709568E11E1CB7A1D99E715FAA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A984AEC0625545FADBA3BED32A89EE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F0D8A3F3CB5E4A7152B18657D29AA6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DB671AB007EE90F664D916F0BC83811 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9327D495A640D54DA1A2D8E29BDBB3DE /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		334DDFEEC3DCE33B802355D498A2709E /* Pods-Snowflakes_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0B16CBA52F354F142FFD3A0E6B948BF3 /* Info.plist */,
+				BB3D105E40237A54A398AB7388DB1E50 /* Pods-Snowflakes_Example.modulemap */,
+				B726998D1C27F5CE05C0076C620B11B8 /* Pods-Snowflakes_Example-acknowledgements.markdown */,
+				0D77599F09C114F34F3F6DBDCCCA7249 /* Pods-Snowflakes_Example-acknowledgements.plist */,
+				3931F35BC2616E3FC9832AA602A36AFF /* Pods-Snowflakes_Example-dummy.m */,
+				182E3780853934167B72FA4ECD9988B3 /* Pods-Snowflakes_Example-frameworks.sh */,
+				70EAA66B441AC469B4EC213CC5BC7BCF /* Pods-Snowflakes_Example-resources.sh */,
+				E5D10E245D1A268A7DCD7FE655002C1F /* Pods-Snowflakes_Example-umbrella.h */,
+				FF017047380A526AE82CCC1AF54FA90E /* Pods-Snowflakes_Example.debug.xcconfig */,
+				3551A821FB008803C2F97EBBAF657AB0 /* Pods-Snowflakes_Example.release.xcconfig */,
+			);
+			name = "Pods-Snowflakes_Example";
+			path = "Target Support Files/Pods-Snowflakes_Example";
+			sourceTree = "<group>";
+		};
+		75002DDB1BDFE82815EA7732C468A4B8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66596FA11F72E6C320B89272FA2F332A /* Info.plist */,
+				322C28927E2A3BEA02E15E8CD68EF22E /* Snowflakes.modulemap */,
+				70AA917EA012DF6801404176F44E920E /* Snowflakes.xcconfig */,
+				AA389C17347E4544F0B473A3BE6C7F41 /* Snowflakes-dummy.m */,
+				C3AAFC2D92E44B23176BF2C3C0573E9A /* Snowflakes-prefix.pch */,
+				5C8C1BFB20667EEBD86466E386D1C915 /* Snowflakes-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Snowflakes";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				F2C683714EC3007D013C5DF5F7059424 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E3B8E426F33AB6350FD4D60172ADA7EA /* Products */,
+				D3A04EE54A43674F85B327E9AFF7DA2C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8FCFB97D5B0FEEBB8AFB8B3F41DF1E42 /* Snowflakes */ = {
+			isa = PBXGroup;
+			children = (
+				1DB671AB007EE90F664D916F0BC83811 /* Pod */,
+				75002DDB1BDFE82815EA7732C468A4B8 /* Support Files */,
+			);
+			name = Snowflakes;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9327D495A640D54DA1A2D8E29BDBB3DE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BEEBE14D66B76CB22CEAB42556F429DD /* Snowflake.swift */,
+				E620F636418874CAF771B9FE122DB82C /* SnowflakesView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D3A04EE54A43674F85B327E9AFF7DA2C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				334DDFEEC3DCE33B802355D498A2709E /* Pods-Snowflakes_Example */,
+				E632D0695529355143D7D3A3E365F0F0 /* Pods-Snowflakes_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E3B8E426F33AB6350FD4D60172ADA7EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2ADC95B181DCF427DB661F89829D7DFC /* Pods_Snowflakes_Example.framework */,
+				D0B58A28614CB5E09CAF0852CC09AD3F /* Pods_Snowflakes_Tests.framework */,
+				95E0989F8C8D53AE01747CED041E6176 /* Snowflakes.bundle */,
+				A7F42CAC4969A61D1138BFCB406DF230 /* Snowflakes.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E632D0695529355143D7D3A3E365F0F0 /* Pods-Snowflakes_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				17A5AAB7FE5FFF14B7B5A041294137E3 /* Info.plist */,
+				550FF80E94E8CA3400BB0D983DA2337A /* Pods-Snowflakes_Tests.modulemap */,
+				34689A782FDD1537EA2FA7C75D5C52EB /* Pods-Snowflakes_Tests-acknowledgements.markdown */,
+				3D943B6BCFC52DAEC698D45A9FB1AD78 /* Pods-Snowflakes_Tests-acknowledgements.plist */,
+				04760A540C44D1635091AE873CF8C349 /* Pods-Snowflakes_Tests-dummy.m */,
+				58E2534D1C96FCFEEF5042B53D130A16 /* Pods-Snowflakes_Tests-frameworks.sh */,
+				6886839B11C7C2D0BEC7E61FC308341B /* Pods-Snowflakes_Tests-resources.sh */,
+				1D5BF695BC95BAD5DF5932EED4ECA9FB /* Pods-Snowflakes_Tests-umbrella.h */,
+				E67C9A1F27597324338AE94311500922 /* Pods-Snowflakes_Tests.debug.xcconfig */,
+				145BD507A2B447E58634E29FF9870A00 /* Pods-Snowflakes_Tests.release.xcconfig */,
+			);
+			name = "Pods-Snowflakes_Tests";
+			path = "Target Support Files/Pods-Snowflakes_Tests";
+			sourceTree = "<group>";
+		};
+		F2C683714EC3007D013C5DF5F7059424 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FCFB97D5B0FEEBB8AFB8B3F41DF1E42 /* Snowflakes */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		002983341F6D2E212D6E4441633B8132 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49607CD4696D798CC745F633C24D5C74 /* Pods-Snowflakes_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342A71B7BDE3AA95D6B2CB0B0DEF6974 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC084923ED50E04D42804676E726E6C9 /* Pods-Snowflakes_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E92C181D5633CE033758659BBAB362 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FFE334502CA591044D8B18B2042CC45 /* Snowflakes-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		50B5C284FE88CD2D8BD499579E2AAFA6 /* Pods-Snowflakes_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4A284FC6E321F4C89478942AAA1F4FC /* Build configuration list for PBXNativeTarget "Pods-Snowflakes_Tests" */;
+			buildPhases = (
+				8D748563FAD818381E9C57C6215632FA /* Sources */,
+				151869186D8C055D35834A47397D1654 /* Frameworks */,
+				342A71B7BDE3AA95D6B2CB0B0DEF6974 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D123EAB171A4D353F9B7172238B11176 /* PBXTargetDependency */,
+			);
+			name = "Pods-Snowflakes_Tests";
+			productName = "Pods-Snowflakes_Tests";
+			productReference = D0B58A28614CB5E09CAF0852CC09AD3F /* Pods_Snowflakes_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9A2142C85562C5DC2551BD4A8588795A /* Snowflakes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EF6B621C6B9E5DC14C231FBD8569007 /* Build configuration list for PBXNativeTarget "Snowflakes" */;
+			buildPhases = (
+				EA95265A94A476212D3D122E14B2BC07 /* Sources */,
+				7A984AEC0625545FADBA3BED32A89EE8 /* Frameworks */,
+				A468571A2E703A3A40744FBB8A99900C /* Resources */,
+				F9E92C181D5633CE033758659BBAB362 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1242D07FEA41115E4E6525FB036BEE7C /* PBXTargetDependency */,
+			);
+			name = Snowflakes;
+			productName = Snowflakes;
+			productReference = A7F42CAC4969A61D1138BFCB406DF230 /* Snowflakes.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B13EB87F9B59C1D8526B2C374D34FDEC /* Pods-Snowflakes_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60E8082F877E172AE74A9325821C3608 /* Build configuration list for PBXNativeTarget "Pods-Snowflakes_Example" */;
+			buildPhases = (
+				9B00B111B7A4AF3CE3E8769159785F2F /* Sources */,
+				5E55E38AFDC066C7C88F91D51A91DE6E /* Frameworks */,
+				002983341F6D2E212D6E4441633B8132 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BA28D5278833E3592327BFBE7AD603F /* PBXTargetDependency */,
+			);
+			name = "Pods-Snowflakes_Example";
+			productName = "Pods-Snowflakes_Example";
+			productReference = 2ADC95B181DCF427DB661F89829D7DFC /* Pods_Snowflakes_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B514E3B81387F20EEC4799589FDD9071 /* Snowflakes-Snowflakes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C5A9F027CE38243C8FA922D890CDADB /* Build configuration list for PBXNativeTarget "Snowflakes-Snowflakes" */;
+			buildPhases = (
+				853E0CCDC48F3F02352593DAB6754BDF /* Sources */,
+				4C5D653AA8CAF6B4195989723711C003 /* Frameworks */,
+				10239B6C104838718E0147BFE9CFD91E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Snowflakes-Snowflakes";
+			productName = "Snowflakes-Snowflakes";
+			productReference = 95E0989F8C8D53AE01747CED041E6176 /* Snowflakes.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E3B8E426F33AB6350FD4D60172ADA7EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B13EB87F9B59C1D8526B2C374D34FDEC /* Pods-Snowflakes_Example */,
+				50B5C284FE88CD2D8BD499579E2AAFA6 /* Pods-Snowflakes_Tests */,
+				9A2142C85562C5DC2551BD4A8588795A /* Snowflakes */,
+				B514E3B81387F20EEC4799589FDD9071 /* Snowflakes-Snowflakes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10239B6C104838718E0147BFE9CFD91E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A468571A2E703A3A40744FBB8A99900C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BC81A323D39CB3C8B4D53CCFEA8A2C /* Snowflakes.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		853E0CCDC48F3F02352593DAB6754BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D748563FAD818381E9C57C6215632FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185040244322CC949B1D8553D60FC029 /* Pods-Snowflakes_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B00B111B7A4AF3CE3E8769159785F2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8FC2D807F53D96B6BA0D4C46CACCF4 /* Pods-Snowflakes_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA95265A94A476212D3D122E14B2BC07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E2A7B4EA354C792F273E60C2CE8C6A /* Snowflake.swift in Sources */,
+				653257EA8EB72B18AE021534E61A2A7F /* Snowflakes-dummy.m in Sources */,
+				8AE13FA71211EEF54BAF20D06778F2C1 /* SnowflakesView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1242D07FEA41115E4E6525FB036BEE7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Snowflakes-Snowflakes";
+			target = B514E3B81387F20EEC4799589FDD9071 /* Snowflakes-Snowflakes */;
+			targetProxy = 38071D11646DE6C47D9CE5815017E06A /* PBXContainerItemProxy */;
+		};
+		8BA28D5278833E3592327BFBE7AD603F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Snowflakes;
+			target = 9A2142C85562C5DC2551BD4A8588795A /* Snowflakes */;
+			targetProxy = 6CE99ED7D9204CE051455A01D20365FA /* PBXContainerItemProxy */;
+		};
+		D123EAB171A4D353F9B7172238B11176 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Snowflakes;
+			target = 9A2142C85562C5DC2551BD4A8588795A /* Snowflakes */;
+			targetProxy = EC623173A49222D6CCA9EDEF06F890F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D5718915F9532A6A432BD3447F3F119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF017047380A526AE82CCC1AF54FA90E /* Pods-Snowflakes_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Snowflakes_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Snowflakes_Example/Pods-Snowflakes_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Snowflakes_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E16D34D309AB4E6C16AF31F90CA20C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70AA917EA012DF6801404176F44E920E /* Snowflakes.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Snowflakes;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		3DA877562A80954C5A57791EF57ED307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70AA917EA012DF6801404176F44E920E /* Snowflakes.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Snowflakes;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		58B6A88E85ED6D7143BA4690BD3681DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E67C9A1F27597324338AE94311500922 /* Pods-Snowflakes_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Snowflakes_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Snowflakes_Tests/Pods-Snowflakes_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Snowflakes_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6479C488D2721013760B4B873F4FFB5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3551A821FB008803C2F97EBBAF657AB0 /* Pods-Snowflakes_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Snowflakes_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Snowflakes_Example/Pods-Snowflakes_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Snowflakes_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E94354F42AEA007C621A37E08EBF4E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70AA917EA012DF6801404176F44E920E /* Snowflakes.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Snowflakes/Snowflakes-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Snowflakes/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Snowflakes/Snowflakes.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Snowflakes;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C3CCBC9B1A25EECA41789BC94648AEE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 145BD507A2B447E58634E29FF9870A00 /* Pods-Snowflakes_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Snowflakes_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Snowflakes_Tests/Pods-Snowflakes_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Snowflakes_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E08820F16DF91E3312B169D647870503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70AA917EA012DF6801404176F44E920E /* Snowflakes.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Snowflakes/Snowflakes-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Snowflakes/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Snowflakes/Snowflakes.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Snowflakes;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EF6B621C6B9E5DC14C231FBD8569007 /* Build configuration list for PBXNativeTarget "Snowflakes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E08820F16DF91E3312B169D647870503 /* Debug */,
+				9E94354F42AEA007C621A37E08EBF4E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60E8082F877E172AE74A9325821C3608 /* Build configuration list for PBXNativeTarget "Pods-Snowflakes_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D5718915F9532A6A432BD3447F3F119 /* Debug */,
+				6479C488D2721013760B4B873F4FFB5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C5A9F027CE38243C8FA922D890CDADB /* Build configuration list for PBXNativeTarget "Snowflakes-Snowflakes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA877562A80954C5A57791EF57ED307 /* Debug */,
+				2E16D34D309AB4E6C16AF31F90CA20C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4A284FC6E321F4C89478942AAA1F4FC /* Build configuration list for PBXNativeTarget "Pods-Snowflakes_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B6A88E85ED6D7143BA4690BD3681DC /* Debug */,
+				C3CCBC9B1A25EECA41789BC94648AEE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

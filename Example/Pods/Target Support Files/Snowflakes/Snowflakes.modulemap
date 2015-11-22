@@ -1,0 +1,6 @@
+framework module Snowflakes {
+  umbrella header "Snowflakes-umbrella.h"
+
+  export *
+  module * { export * }
+}
