@@ -4,6 +4,10 @@
   "summary": "Realistic falling snowflakes overlay for iOS.",
   "description": "Snowflakes is an overlay view showing realistic falling snow. It is perfect to get your users in that winter holiday mood!",
   "homepage": "https://github.com/MartinRogalla/Snowflakes",
+  "screenshots": [
+    "http://i.imgur.com/chU5DyI.gif",
+    "http://i.imgur.com/MXmfjx4.gif"
+  ],
   "license": "MIT",
   "authors": {
     "Martin Rogalla": "email@martinrogalla.com"
@@ -21,5 +25,6 @@
     "Snowflakes": [
       "Pod/Assets/*.png"
     ]
-  }
+  },
+  "frameworks": "UIKit"
 }

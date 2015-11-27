@@ -11,11 +11,12 @@
 		49607CD4696D798CC745F633C24D5C74 /* Pods-Snowflakes_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5D10E245D1A268A7DCD7FE655002C1F /* Pods-Snowflakes_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		653257EA8EB72B18AE021534E61A2A7F /* Snowflakes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA389C17347E4544F0B473A3BE6C7F41 /* Snowflakes-dummy.m */; };
 		7FFE334502CA591044D8B18B2042CC45 /* Snowflakes-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C8C1BFB20667EEBD86466E386D1C915 /* Snowflakes-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83F0D8A3F3CB5E4A7152B18657D29AA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		8732ADF54CA1735C426B2041B947A313 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
 		8AE13FA71211EEF54BAF20D06778F2C1 /* SnowflakesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E620F636418874CAF771B9FE122DB82C /* SnowflakesView.swift */; };
 		A1BC81A323D39CB3C8B4D53CCFEA8A2C /* Snowflakes.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 95E0989F8C8D53AE01747CED041E6176 /* Snowflakes.bundle */; };
-		DDF7233F0C907DB47FAC6A5D4AAFB77C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		DF31E8709568E11E1CB7A1D99E715FAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		A1DFC2C3C09D2BF8280CE3D7343DAC5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
+		DDF7233F0C907DB47FAC6A5D4AAFB77C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		DF31E8709568E11E1CB7A1D99E715FAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
 		E6E2A7B4EA354C792F273E60C2CE8C6A /* Snowflake.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEBE14D66B76CB22CEAB42556F429DD /* Snowflake.swift */; };
 		EC084923ED50E04D42804676E726E6C9 /* Pods-Snowflakes_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D5BF695BC95BAD5DF5932EED4ECA9FB /* Pods-Snowflakes_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF8FC2D807F53D96B6BA0D4C46CACCF4 /* Pods-Snowflakes_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3931F35BC2616E3FC9832AA602A36AFF /* Pods-Snowflakes_Example-dummy.m */; };
@@ -59,12 +60,12 @@
 		3551A821FB008803C2F97EBBAF657AB0 /* Pods-Snowflakes_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Snowflakes_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3931F35BC2616E3FC9832AA602A36AFF /* Pods-Snowflakes_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Snowflakes_Example-dummy.m"; sourceTree = "<group>"; };
 		3D943B6BCFC52DAEC698D45A9FB1AD78 /* Pods-Snowflakes_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Snowflakes_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		550FF80E94E8CA3400BB0D983DA2337A /* Pods-Snowflakes_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Snowflakes_Tests.modulemap"; sourceTree = "<group>"; };
 		58E2534D1C96FCFEEF5042B53D130A16 /* Pods-Snowflakes_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Snowflakes_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		5C8C1BFB20667EEBD86466E386D1C915 /* Snowflakes-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Snowflakes-umbrella.h"; sourceTree = "<group>"; };
 		66596FA11F72E6C320B89272FA2F332A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6886839B11C7C2D0BEC7E61FC308341B /* Pods-Snowflakes_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Snowflakes_Tests-resources.sh"; sourceTree = "<group>"; };
+		6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		70AA917EA012DF6801404176F44E920E /* Snowflakes.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Snowflakes.xcconfig; sourceTree = "<group>"; };
 		70EAA66B441AC469B4EC213CC5BC7BCF /* Pods-Snowflakes_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Snowflakes_Example-resources.sh"; sourceTree = "<group>"; };
 		95E0989F8C8D53AE01747CED041E6176 /* Snowflakes.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Snowflakes.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +76,7 @@
 		BB3D105E40237A54A398AB7388DB1E50 /* Pods-Snowflakes_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Snowflakes_Example.modulemap"; sourceTree = "<group>"; };
 		BEEBE14D66B76CB22CEAB42556F429DD /* Snowflake.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Snowflake.swift; sourceTree = "<group>"; };
 		C3AAFC2D92E44B23176BF2C3C0573E9A /* Snowflakes-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Snowflakes-prefix.pch"; sourceTree = "<group>"; };
+		C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		D0B58A28614CB5E09CAF0852CC09AD3F /* Pods_Snowflakes_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snowflakes_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5D10E245D1A268A7DCD7FE655002C1F /* Pods-Snowflakes_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Snowflakes_Example-umbrella.h"; sourceTree = "<group>"; };
 		E620F636418874CAF771B9FE122DB82C /* SnowflakesView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SnowflakesView.swift; sourceTree = "<group>"; };
@@ -106,17 +108,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A984AEC0625545FADBA3BED32A89EE8 /* Frameworks */ = {
+		E5F334F25501CED3F5A31D3859A38043 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83F0D8A3F3CB5E4A7152B18657D29AA6 /* Foundation.framework in Frameworks */,
+				8732ADF54CA1735C426B2041B947A313 /* Foundation.framework in Frameworks */,
+				A1DFC2C3C09D2BF8280CE3D7343DAC5B /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18340F12838DEE43507667CC74401EB1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */,
+				C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		1DB671AB007EE90F664D916F0BC83811 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +155,14 @@
 			path = "Target Support Files/Pods-Snowflakes_Example";
 			sourceTree = "<group>";
 		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18340F12838DEE43507667CC74401EB1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		75002DDB1BDFE82815EA7732C468A4B8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,7 +182,7 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				F2C683714EC3007D013C5DF5F7059424 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				E3B8E426F33AB6350FD4D60172ADA7EA /* Products */,
 				D3A04EE54A43674F85B327E9AFF7DA2C /* Targets Support Files */,
 			);
@@ -185,22 +205,6 @@
 				E620F636418874CAF771B9FE122DB82C /* SnowflakesView.swift */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		D3A04EE54A43674F85B327E9AFF7DA2C /* Targets Support Files */ = {
@@ -302,7 +306,7 @@
 			buildConfigurationList = 1EF6B621C6B9E5DC14C231FBD8569007 /* Build configuration list for PBXNativeTarget "Snowflakes" */;
 			buildPhases = (
 				EA95265A94A476212D3D122E14B2BC07 /* Sources */,
-				7A984AEC0625545FADBA3BED32A89EE8 /* Frameworks */,
+				E5F334F25501CED3F5A31D3859A38043 /* Frameworks */,
 				A468571A2E703A3A40744FBB8A99900C /* Resources */,
 				F9E92C181D5633CE033758659BBAB362 /* Headers */,
 			);
