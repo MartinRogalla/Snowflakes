@@ -89,4 +89,14 @@ public class SnowflakesView : UIView {
             self.addNewSnowflake()
         }
     }
+    
+    override public func hitTest(point: CGPoint, withEvent event: UIEvent?) -> UIView? {
+		let hitView = super.hitTest(point, withEvent: event)
+		
+		if hitView == self {
+			return nil
+		}
+		
+		return hitView
+	}
 }
