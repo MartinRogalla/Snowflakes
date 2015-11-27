@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '9BF2B278F0899AD3AD72086B'
+               BlueprintIdentifier = 'FFA2F2AF7206816DA0B0DFBF'
                BlueprintName = 'Snowflakes'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Snowflakes.framework'>

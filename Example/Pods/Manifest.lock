@@ -1,5 +1,5 @@
 PODS:
-  - Snowflakes (0.1.0)
+  - Snowflakes (0.1.1)
 
 DEPENDENCIES:
   - Snowflakes (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Snowflakes: 359a55a91d5c75adc9e194640a0998c1e7f72ca8
+  Snowflakes: ca7727a29acaed48f3f47249ed1959a73282ae4a
 
 COCOAPODS: 0.39.0
