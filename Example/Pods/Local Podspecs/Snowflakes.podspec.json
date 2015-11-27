@@ -1,6 +1,6 @@
 {
   "name": "Snowflakes",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "Realistic falling snowflakes overlay for iOS.",
   "description": "Snowflakes is an overlay view showing realistic falling snow. It is perfect to get your users in that winter holiday mood!",
   "homepage": "https://github.com/MartinRogalla/Snowflakes",
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/MartinRogalla/Snowflakes.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
