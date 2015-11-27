@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## Snowflakes
 
-Copyright (c) 2015 Martin Rogalla <Martin.Rogalla@magnet.me>
+Copyright (c) 2015 Martin Rogalla <email@martinrogalla.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

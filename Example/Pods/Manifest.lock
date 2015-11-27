@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Snowflakes: cd0f94e02942ed3c800f3a203de711a24265fc9e
+  Snowflakes: 359a55a91d5c75adc9e194640a0998c1e7f72ca8
 
 COCOAPODS: 0.39.0

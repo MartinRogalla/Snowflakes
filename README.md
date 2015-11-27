@@ -36,10 +36,17 @@ it, simply add the following line to your Podfile:
 pod "Snowflakes"
 ```
 
-## Author
-
+## Contributors
+### Author
 Martin Rogalla, [@MartinRogalla](https://twitter.com/MartinRogalla)
+
+### External Contributors
+
+Daniel Becker, [@dabeck](https://github.com/dabeck)
+
+Brendan Kirchner, [@waterskier2007](https://github.com/waterskier2007)
 
 ## License
 
 Snowflakes is available under the MIT license. See the LICENSE file for more info.
+
