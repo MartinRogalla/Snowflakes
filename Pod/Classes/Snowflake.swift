@@ -10,7 +10,7 @@ import UIKit
 class Snowflake : UIView {
     override init (frame : CGRect) {
         super.init(frame : frame)
-        self.backgroundColor = UIColor.whiteColor().colorWithAlphaComponent(0.7)
+        self.backgroundColor = UIColor.white.withAlphaComponent(0.7)
         self.layer.cornerRadius = CGFloat(self.frame.width/2)
         self.layer.borderWidth = 0.0
     }
